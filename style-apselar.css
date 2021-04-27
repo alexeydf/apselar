@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap');
+
+body{
+    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+ul,p,h2,h1{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+.conteudo-geral{
+    max-width: 1020px;
+    margin: auto;
+}
+
+/*contato whatsapp*/
+.contato-whatsapp{
+    position: fixed;
+    z-index: 20;
+    background-color: #11a85fbd;
+    top: 90%;
+    right: -17px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: all .5s;
+}
+.contato-whatsapp a{
+    color: #ececec;
+    display: flex;
+    align-items: center;
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+.contato-whatsapp i{
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+.contato-whatsapp:hover{
+    background-color: #11a85f;
+}
+
+.top-header{
+    padding: 8px 10px;
+    background-color: #fdfdfd;
+    border-bottom: 5px solid #8a8a8a;
+    border-top: 5px solid #8a8a8a;
+}
+.top-header .conteudo-geral{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 100%;
+}
+/*.menu{
+    width: 100%;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}*/
+.menu a{
+    color: #000;
+}
+
+.banner{
+    background-color: #f0ba0a;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    
+}
+.banner .conteudo-geral{
+    max-width: 1020px;
+    padding: 0 10px;
+}
+.banner-conteudo{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 30px 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.banner-txt h1{
+    font-size: 1.6rem;
+    color: #32343A;
+    text-transform: uppercase;
+    font-family: 'Fredoka One', cursive;
+}
+.banner-txt span{
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    /*font-style: italic;*/
+    color: #574301;
+}
+.banner p{
+    line-height: 1.5;
+    font-size: 1.5rem;
+    color: #383838;
+}
+.banner-txt ul{
+    color: #383838;
+    font-weight: 800;
+    /*background-color: rgba(255, 255, 255, 0.61);*/
+    padding: 5px;
+}
+.banner-txt li{
+    margin: 3px 0;
+    font-size: 1.5rem;
+    color: #836400;
+}
+.banner-txt li:nth-child(2n){
+    color: #574301;
+}
+.banner img{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.inscricao {
+    padding: 10px;
+}
+.inscricao p{
+    color: #32343A;
+    font-size: 1.3rem;
+}
+.btn-inscrever{
+    margin: 25px 0;
+}
+.btn-inscrever a{
+    color: #fff;
+    /*background-color: #32343A;*/
+    background-color: #833f00;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    letter-spacing: 1.5px;
+}
+
+.aprender{
+    color: #32343A;
+    padding: 45px 10px;
+    /*text-align: center;*/
+}
+.aprender h2{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    color: #833f00;
+}
+.modulos{
+    /*display: flex;
+    justify-content: space-around;*/
+    margin-bottom: 30px;
+}
+
+.modulos p{
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+.duracao{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.duracao span{
+    color: #833f00;
+    text-decoration: underline;
+    font-weight: 800;
+}
+.aprender-tecnicas ul{
+    text-transform: uppercase;
+}
+.aprender-tecnicas li{
+    padding: 2px 0;
+    font-weight: 700;
+}
+
+.certificado h3, .videos h3{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: #833f00;
+}
+.certificado p{
+    line-height: 1.5;
+    margin-bottom: 35px;
+}
+.certificado img{
+    width: 100%;
+}
+
+
+.galeria-videos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.galeria-videos video{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.aprender .btn-inscrever{
+    text-align: center;
+    
+}
+.aprender .btn-inscrever p{
+    padding: 25px 5px 45px 5px;
+    color: #cf8e00;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+.contato{
+    background-color: #f7f7f7;
+    padding: 45px 10px;
+}
+
+.localizacao iframe{
+    width: 100%;
+}

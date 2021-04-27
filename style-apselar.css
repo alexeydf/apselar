@@ -269,3 +269,22 @@ a{
 .rodape{
     background-color: #cf8e00;
 }
+.rodape .conteudo-geral{
+    padding: 10px;
+}
+.rodape .list-contatos{
+    margin-bottom: 5px;
+}
+.rodape .list-contatos ul{
+    display: flex;
+    justify-content: space-around;
+}
+.rodape p{
+    font-size: .9rem;
+    text-align: center;
+    color: #383838;
+}
+.rodape p strong{
+    text-transform: uppercase;
+}
+

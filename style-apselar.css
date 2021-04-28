@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap');
 
 body{
-    font-family: sans-serif;
+    overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
 }
 ul,p,h2,h1{
@@ -47,8 +47,9 @@ a{
 .top-header{
     padding: 8px 10px;
     background-color: #fdfdfd;
-    border-bottom: 5px solid #8a8a8a;
-    border-top: 5px solid #8a8a8a;
+    /*border-bottom: 5px solid #8a8a8a;
+    border-top: 5px solid #8a8a8a;*/
+    
 }
 .top-header .conteudo-geral{
     display: flex;
@@ -58,15 +59,35 @@ a{
 .logo img{
     width: 100%;
 }
-/*.menu{
-    width: 100%;
+.menu{
+    /*display: none;*/
+    position: absolute;
+    background-color: #fdfdfd;
+    padding: 50px 30px;
+    top: 0px;
+    right: -500px;
+    transform: scaleY(0);
+    transition: all .3s;
 }
-.menu ul{
+.menu-aberto{
+    right: 0;
+    top: 140px;
+    transform: scaleY(1);
+}
+.barra-menu i{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+/*.menu ul{
     display: flex;
     justify-content: space-around;
 }*/
 .menu a{
     color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 8px 0;
+    display: block;
 }
 
 .banner{
@@ -286,5 +307,27 @@ a{
 }
 .rodape p strong{
     text-transform: uppercase;
+}
+
+@media screen and (min-width: 840px){
+    .banner-conteudo{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .barra-menu{
+        display: none;
+    }
+    .menu{
+        display: block;
+        
+    }
+    .menu ul{
+    display: flex;
+    justify-content: space-around;
+    }
+    .menu a{
+        margin: 0 0px;
+    }
 }
 

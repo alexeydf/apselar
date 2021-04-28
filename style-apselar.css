@@ -337,7 +337,14 @@ a{
         justify-content: space-between;
     }
     .menu a{
-        margin: 0 20px;
+        margin: 0 5px;
+        padding: 10px 15px;
+        transition: all .5s;
+    }
+    .menu a:hover{
+        color: #f7f7f7;
+        background-color: #cf8e00;
+        border-radius: 30px;
     }
 }
 

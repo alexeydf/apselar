@@ -148,8 +148,10 @@ a{
     padding: 10px;
 }
 .inscricao p{
-    color: #32343A;
-    font-size: 1.3rem;
+    color: #833f00;
+    font-size: 1.1rem;
+    font-weight: 900;
+    margin-bottom: 30px;
 }
 .btn-inscrever{
     margin: 25px 0;

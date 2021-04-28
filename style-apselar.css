@@ -274,6 +274,8 @@ a{
 }
 
 .localizacao{
+    max-width: 1020px;
+    margin: auto;
     padding: 45px 10px;
 }
 .localizacao h2{
@@ -294,11 +296,16 @@ a{
     padding: 10px;
 }
 .rodape .list-contatos{
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 .rodape .list-contatos ul{
+    margin: auto;
+    max-width: 440px;
     display: flex;
     justify-content: space-around;
+}
+.rodape .list-contatos i{
+    font-size: 1.5rem;
 }
 .rodape p{
     font-size: .9rem;

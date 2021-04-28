@@ -319,15 +319,16 @@ a{
         display: none;
     }
     .menu{
-        display: block;
-        
+        position: relative;
+        right: 0;
+        transform: scaleY(1);
     }
     .menu ul{
-    display: flex;
-    justify-content: space-around;
+        display: flex;
+        justify-content: space-between;
     }
     .menu a{
-        margin: 0 0px;
+        margin: 0 20px;
     }
 }
 

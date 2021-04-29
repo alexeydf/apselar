@@ -95,17 +95,16 @@ a{
     background-color: #544617;
     color: #fff;
     text-align: center;
-    padding: 15px 0;
+    padding: 20px 0;
     
 }
 .banner .conteudo-geral{
     max-width: 1020px;
-    padding: 0 10px;
 }
 .banner-conteudo{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 30px 0px;
+    padding: 0px 0px;
     width: 100%;
     box-sizing: border-box;
 }
@@ -122,14 +121,13 @@ a{
     color: #947100;
 }
 .banner p{
-    line-height: 1.8;
+    line-height: 1.6;
     font-size: 1.8rem;
     color: #ececec;
-    margin-bottom: 20px;
+    margin: 30px 0;
 }
 .banner img{
     width: 100%;
-    margin: 10px 0;
     border-radius: 5px;
 }
 .insc-monitor{
@@ -355,8 +353,8 @@ a{
         color: #ececec;
     }
     .inscricao p{
-        color: #a04d00;
-        font-size: 1.1rem;
+        color: #bd5b00;
+        font-size: 1.5rem;
         font-weight: 900;
         margin-bottom: 30px;
     }

@@ -91,7 +91,8 @@ a{
 }
 
 .banner{
-    background-color: #f0ba0a;
+    /*background-color: #f0ba0a;*/
+    background-color: #544617;
     color: #fff;
     text-align: center;
     padding: 15px 0;
@@ -110,7 +111,7 @@ a{
 }
 .banner-txt h1{
     font-size: 1.6rem;
-    color: #32343A;
+    color: #cf8e00;
     text-transform: uppercase;
     font-family: 'Fredoka One', cursive;
 }
@@ -118,37 +119,27 @@ a{
     font-size: 2.5rem;
     letter-spacing: 3px;
     /*font-style: italic;*/
-    color: #574301;
+    color: #947100;
 }
 .banner p{
-    line-height: 1.5;
-    font-size: 1.5rem;
-    color: #383838;
-}
-.banner-txt ul{
-    color: #383838;
-    font-weight: 800;
-    /*background-color: rgba(255, 255, 255, 0.61);*/
-    padding: 5px;
-}
-.banner-txt li{
-    margin: 3px 0;
-    font-size: 1.5rem;
-    color: #836400;
-}
-.banner-txt li:nth-child(2n){
-    color: #574301;
+    line-height: 1.8;
+    font-size: 1.8rem;
+    color: #ececec;
+    margin-bottom: 20px;
 }
 .banner img{
     width: 100%;
     margin: 10px 0;
     border-radius: 5px;
 }
+.insc-monitor{
+    display: none;
+}
 .inscricao {
     padding: 10px;
 }
 .inscricao p{
-    color: #833f00;
+    color: #cf8e00;
     font-size: 1.1rem;
     font-weight: 900;
     margin-bottom: 30px;
@@ -159,7 +150,7 @@ a{
 .btn-inscrever a{
     color: #fff;
     /*background-color: #32343A;*/
-    background-color: #833f00;
+    background-color: #924700;
     padding: 12px 30px;
     text-transform: uppercase;
     border-radius: 8px;
@@ -345,6 +336,35 @@ a{
         color: #f7f7f7;
         background-color: #cf8e00;
         border-radius: 30px;
+    }
+
+
+    .banner-txt h1{
+        font-size: 2.2rem;
+        margin-bottom: 60px;
+    }
+    .banner-txt span{
+        font-size: 3.2rem;
+        letter-spacing: 3px;
+        /*font-style: italic;*/
+        color: #947100;
+    }
+    .banner p{
+        line-height: 1.5;
+        font-size: 2.5rem;
+        color: #ececec;
+    }
+    .inscricao p{
+        color: #a04d00;
+        font-size: 1.1rem;
+        font-weight: 900;
+        margin-bottom: 30px;
+    }
+    .insc-monitor{
+        display: block;
+    }
+    .insc-mobile{
+        display: none;
     }
 }
 

@@ -12,6 +12,9 @@ ul,p,h2,h1{
 a{
     text-decoration: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .conteudo-geral{
     max-width: 1020px;
@@ -214,19 +217,31 @@ a{
     width: 100%;
     margin-bottom: 10px;
     border-radius: 5px;
-}
-
-.aprender .btn-inscrever{
-    text-align: center;
     
 }
-.aprender .btn-inscrever p{
+.video{
+    text-align: center;
+}
+
+.aprender .btn-inscrever, .depoimentos .btn-inscrever{
+    text-align: center; 
+}
+.aprender .btn-inscrever p, .depoimentos .btn-inscrever p{
     padding: 25px 5px 45px 5px;
     color: #cf8e00;
     font-size: 1.2rem;
     font-weight: 600;
 }
 
+.depoimentos{
+    padding: 45px 10px;
+    background-color: #fffae9;
+}
+.depoimentos p{
+    color: #32343A;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
 
 .contato{
     background-color: #f7f7f7;
@@ -367,10 +382,15 @@ a{
 
     .galeria-videos{
         justify-content: space-between;
+        box-sizing: border-box;
     }
     .galeria-videos .video{
-        width: 30%;
-        
+        width: 330px;
+
+    }
+
+    .depoimentos .galeria-videos{
+        justify-content: space-around;
     }
 
     .contato p{

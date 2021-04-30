@@ -43,6 +43,7 @@ a{
 .contato-whatsapp:hover{
     background-color: #11a85f;
 }
+/*contato whatsapp*/
 
 .top-header{
     padding: 8px 10px;
@@ -60,7 +61,6 @@ a{
     width: 100%;
 }
 .menu{
-    /*display: none;*/
     position: absolute;
     background-color: #fdfdfd;
     padding: 50px 30px;
@@ -78,10 +78,6 @@ a{
     font-size: 1.5rem;
     cursor: pointer;
 }
-/*.menu ul{
-    display: flex;
-    justify-content: space-around;
-}*/
 .menu a{
     color: #000;
     text-transform: uppercase;
@@ -91,11 +87,10 @@ a{
 }
 
 .banner{
-    /*background-color: #f0ba0a;*/
     background-color: #544617;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 0px;
     
 }
 .banner .conteudo-geral{
@@ -117,7 +112,6 @@ a{
 .banner-txt span{
     font-size: 2.5rem;
     letter-spacing: 3px;
-    /*font-style: italic;*/
     color: #947100;
 }
 .banner p{
@@ -128,7 +122,6 @@ a{
 }
 .banner img{
     width: 100%;
-    border-radius: 5px;
 }
 .insc-monitor{
     display: none;
@@ -153,18 +146,24 @@ a{
     text-transform: uppercase;
     border-radius: 8px;
     letter-spacing: 1.5px;
+    transition: all .3s;
+}
+.btn-inscrever a:hover{
+    color: #924700;
+    background-color: #ececec;
+}
+
+.titulo{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    color: #833f00;
 }
 
 .aprender{
     color: #32343A;
     padding: 45px 10px;
     /*text-align: center;*/
-}
-.aprender h2{
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    font-size: 1.7rem;
-    color: #833f00;
 }
 .modulos{
     /*display: flex;
@@ -211,9 +210,10 @@ a{
     display: flex;
     flex-wrap: wrap;
 }
-.galeria-videos video{
+.galeria-videos .video{
     width: 100%;
     margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 .aprender .btn-inscrever{
@@ -232,12 +232,6 @@ a{
     background-color: #f7f7f7;
     padding: 45px 10px;
 }
-.contato h2{
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    font-size: 1.7rem;
-    color: #833f00;
-}
 .contato p{
     color: #8a8a8a;
     text-align: center;
@@ -249,13 +243,16 @@ a{
     font-weight: 700;
     color: #836400;
 }
+.list-contatos{
+    padding: 20px 5px;
+}
 .list-contatos a{
     display: flex;
     align-items: center;
-    padding: 4px 0;
+    padding: 9px 0;
 }
 .list-contatos i{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-right: 5px;
     color: #833f00;
 }
@@ -269,12 +266,6 @@ a{
     margin: auto;
     padding: 45px 10px;
 }
-.localizacao h2{
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    font-size: 1.7rem;
-    color: #833f00;
-}
 .localizacao iframe{
     width: 100%;
     padding: 0 0;
@@ -286,17 +277,19 @@ a{
 .rodape .conteudo-geral{
     padding: 10px;
 }
-.rodape .list-contatos{
+.list-contatos-rodape{
+    padding: 00px 0;
     margin-bottom: 15px;
 }
-.rodape .list-contatos ul{
+.list-contatos-rodape ul{
     margin: auto;
     max-width: 440px;
     display: flex;
     justify-content: space-around;
 }
-.rodape .list-contatos i{
+.list-contatos-rodape i{
     font-size: 1.5rem;
+    color: #833f00;
 }
 .rodape p{
     font-size: .9rem;
@@ -332,7 +325,7 @@ a{
     }
     .menu a:hover{
         color: #f7f7f7;
-        background-color: #cf8e00;
+        background-color: #544617;
         border-radius: 30px;
     }
 
@@ -352,6 +345,9 @@ a{
         font-size: 2.5rem;
         color: #ececec;
     }
+    .banner img{
+        border-radius: 5px;
+    }
     .inscricao p{
         color: #bd5b00;
         font-size: 1.5rem;
@@ -364,5 +360,36 @@ a{
     .insc-mobile{
         display: none;
     }
+
+    .titulo{
+        font-size: 2.4rem;
+    }
+
+    .galeria-videos{
+        justify-content: space-between;
+    }
+    .galeria-videos .video{
+        width: 30%;
+        
+    }
+
+    .contato p{
+        font-size: 1.5rem;
+    }
+    .contato p span{
+        font-size: 1.7rem;
+    }
+    .list-contatos ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    .list-contatos a{
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    .list-contatos i{
+        font-size: 2rem;
+    }
+    
 }
 

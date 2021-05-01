@@ -281,6 +281,13 @@ html{
     margin: auto;
     padding: 45px 10px;
 }
+.localizacao p{
+    padding: 15px 0;
+    text-transform: uppercase;
+    color: #bd5b00;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
 .localizacao iframe{
     width: 100%;
     padding: 0 0;
@@ -383,6 +390,7 @@ html{
     .galeria-videos{
         justify-content: space-between;
         box-sizing: border-box;
+        align-items: center;
     }
     .galeria-videos .video{
         width: 330px;
@@ -404,11 +412,11 @@ html{
         justify-content: space-around;
     }
     .list-contatos a{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-weight: 400;
     }
     .list-contatos i{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     
 }

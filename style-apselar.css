@@ -211,7 +211,7 @@ html{
 .titulo{
     margin-bottom: 20px;
     text-transform: uppercase;
-    font-size: 1.7rem;
+    font-size: 2rem;
     color: #833f00;
 }
 
@@ -234,20 +234,99 @@ html{
 .duracao{
     font-size: 1.3rem;
     font-weight: bold;
+    margin: 10px 0;
 }
 .duracao span{
     color: #833f00;
     text-decoration: underline;
     font-weight: 800;
 }
+
+.modulo-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.aprender-tecnicas h3{
+    color: #bd5b00;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+.aprender-tecnicas h3 strong{
+    font-size: 2rem;
+}
 .aprender-tecnicas ul{
     text-transform: uppercase;
-    font-size: 1.2rem;
-
+    font-size: .95rem;
+    margin-bottom: 15px;
+    margin-right: 40px;
+    color: #4d2500;
+}
+.curso-valor{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.curso-valor i{
+    font-size: 1.8rem;
+    margin-right: 5px;
+    color: #4b974b;
+}
+.curso-valor p{
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #8a8a8a;
+}
+.curso-valor p span{
+    color: #bd5b00;
+    font-size: 1.7rem;
+    font-weight: 900;
 }
 .aprender-tecnicas li{
     padding: 2px 0;
     font-weight: 700;
+}
+.curso-detalhe li i{
+    color: #bd5b00;
+    font-size: 1.5rem;
+}
+.formas-pagamento{
+    margin-bottom: 20px;
+}
+.formas-pagamento p{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 15px 0;
+}
+.fg-imagens{
+    display: flex;
+    width: 360px;
+    justify-content: space-between;
+    /*background-color: #4b974b;*/
+}
+.fg-imagens img{
+    width: 2rem;
+    margin-bottom: 8px;
+}
+.fg-imagens p{
+    font-size: .9rem;
+    color: #cacaca;
+    margin: 0;
+}
+.fg-card{
+    text-align: center;
+}
+.dinheiro i{
+    color: #4b974b;
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+.cartao i{
+    color: #bd5b00;
+    font-size: 2rem;
+    margin-bottom: 8px;
 }
 
 .certificado h3, .videos h3{
